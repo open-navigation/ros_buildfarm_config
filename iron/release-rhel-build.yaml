@@ -38,6 +38,7 @@ package_blacklist:
 - ompl  # opende has no RPM package for RHEL
 - open3d_conversions  # open3d has no RPM package for RHEL
 - openni2_camera  # libopenni2-dev does not exist on RHEL
+- openvdb_vendor  # CMake version too old on RHEL for OpenVDB
 - pepper_meshes  # Missing license agreement patches for packaging https://github.com/ros-naoqi/pepper_meshes2-release/issues/1
 - performance_test  # Missing dependency on git: https://gitlab.com/ApexAI/performance_test/-/merge_requests/371
 - proxsuite  # simde and matio have no RPM packages for RHEL 9
